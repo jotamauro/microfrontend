@@ -4,12 +4,8 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-coverage/
-node_modules/
-dist/
-webpack-modules/
+**/node_modules/
+**/dist/
 
-# Environment Variables
-.env*
-!.env.example
-yarn.lock
+# Package lock files
+**/package-lock.json
